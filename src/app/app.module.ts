@@ -9,6 +9,8 @@ import { ProductInfoComponent } from './components/product-info/product-info.com
 import { ProductPageComponent } from './components/product-page/product-page.component';
 import { ProductImageGalleryComponent } from './components/product-image-gallery/product-image-gallery.component';
 import { ButtonComponent } from './components/ui/button/button.component';
+import { CurrentTimeComponent } from './layout/hight-header/current-time/current-time.component';
+import { HightHeaderCompopnenet } from './layout/hight-header/high-header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ButtonComponent } from './components/ui/button/button.component';
     ProductInfoComponent,
     ProductPageComponent,
     ProductImageGalleryComponent,
-    ButtonComponent
+    ButtonComponent,
+    CurrentTimeComponent,
+    HightHeaderCompopnenet
   ],
   imports: [
     BrowserModule,
