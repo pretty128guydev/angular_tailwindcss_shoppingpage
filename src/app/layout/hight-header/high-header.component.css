@@ -1,7 +1,13 @@
 .high-header {
     background-color: #05422C;
+    height: 37px;
     .offer {
-        color: #FFFFFFB2;
+        width: 371px;
+        height: 21px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
         opacity: 70%;
     }
 }

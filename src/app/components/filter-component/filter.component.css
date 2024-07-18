@@ -1,0 +1,32 @@
+.filters {
+    width: 304px;
+    height: 784px;
+    left: 64px;
+    border-right: 1px;
+    padding-right: 32px;
+    gap:20px;
+    .filter-title {
+        width: 272px;
+        height: 68px;
+        border-bottom: 1px;
+        padding: 17px 0px 24px 0px;
+        gap: 8px;
+        border-color: #F4F4F4;
+    }
+    .product-category {
+        width: 272px;
+        height: 442px;
+        border-bottom: 1px;
+        padding-bottom: 20px;
+        gap: 20px;
+        border-color: #F4F4F4;
+    }
+    .filter-by-price {
+        width: 272px;
+        height: 174px;
+        border-bottom: 1px;
+        padding-bottom: 24px;
+        gap: 20px;
+        border-color: #F4F4F4;
+    }
+}

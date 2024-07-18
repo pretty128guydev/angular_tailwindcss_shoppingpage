@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,12 @@ import { ProductImageGalleryComponent } from './components/product-image-gallery
 import { ButtonComponent } from './components/ui/button/button.component';
 import { CurrentTimeComponent } from './layout/hight-header/current-time/current-time.component';
 import { HightHeaderCompopnenet } from './layout/hight-header/high-header.component';
+import { SearchBarComponent } from './layout/header/serchbar-component/search-bar.component';
+import { AccountBag } from './layout/header/accoutn-bag-component/account-bag.component';
+import { MainHeaderComponent } from './layout/header/main-header-component/main-header.component.spec';
+import { NavsComponent } from './layout/navs/navs.component';
+import { SelectionsComponent } from './layout/selections/selections.component';
+import { FilterCompopnenet } from './components/filter-component/filter.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +29,18 @@ import { HightHeaderCompopnenet } from './layout/hight-header/high-header.compon
     ProductImageGalleryComponent,
     ButtonComponent,
     CurrentTimeComponent,
-    HightHeaderCompopnenet
+    HightHeaderCompopnenet,
+    SearchBarComponent,
+    AccountBag,
+    MainHeaderComponent,
+    NavsComponent,
+    SelectionsComponent,
+    FilterCompopnenet
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

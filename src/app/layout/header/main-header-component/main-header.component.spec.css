@@ -1,0 +1,9 @@
+.main-header {
+    padding: 14px 64px 14px 64px;
+    justify-content: space-between;
+    display: flex;
+    border: 0px 0px 2px 0px;
+    height: Hug (76px);
+    top: 37px;
+    border-color: #f4f4f45d;
+}

@@ -1,0 +1,99 @@
+.navs {
+    display: flex;
+    flex: 0;
+    padding: 16px 64px 16px 64px;
+    width: 100%;
+    gap: 40px;
+    border-bottom: 1px;
+    height: 56px;
+    justify-content: center;
+    border-color: #F4F4F4;
+    .nav1 {
+        width: 64px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #46494F;
+    }
+    .nav2 {
+        width: 70px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav3 {
+        width: 56px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav4 {
+        width: 122px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav5 {
+        width: 89px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav6 {
+        width: 177px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav7 {
+        width: 81px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav8 {
+        width: 67px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+    .nav9 {
+        width: 35px;
+        height: 24px;
+        font-weight: 400;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font: "Lexend";
+        color: #46494F;
+    }
+}
