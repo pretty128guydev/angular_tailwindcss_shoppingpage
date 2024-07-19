@@ -1,0 +1,102 @@
+.product-list {
+    padding: 55px;
+    width: calc(100% - 400px);
+  }
+  
+  .product-list-header {
+    max-width: 1500px;
+    height: 68px;
+    border-bottom: 1px;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    display: flex;
+  }
+  
+  .shop {
+    height: 36px;
+    width: 58px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  
+  .filter {
+    width: 166px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    border: 1px;
+    padding: 0px 10px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    border-color: #F4F4F4;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .app-custom-component {
+    width: 100%;
+  }
+  .product-card {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    flex: 1;
+    padding: 10px 0;
+  }
+  
+  .product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .product-review,
+  .product-mark,
+  .product-price,
+  .product-amount {
+    font-size: 0.8rem;
+    margin: 5px 0;
+  }
+  
+  .product-button {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-button:hover {
+    background-color: #0056b3;
+  }
+  

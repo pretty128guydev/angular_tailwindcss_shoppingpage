@@ -1,10 +1,11 @@
 .filters {
     width: 304px;
     height: 784px;
-    left: 64px;
+    padding: 64px;
     border-right: 1px;
     padding-right: 32px;
     gap:20px;
+    padding-top: 40px;
     .filter-title {
         width: 272px;
         height: 68px;
@@ -12,6 +13,9 @@
         padding: 17px 0px 24px 0px;
         gap: 8px;
         border-color: #F4F4F4;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
     }
     .product-category {
         width: 272px;
@@ -20,6 +24,27 @@
         padding-bottom: 20px;
         gap: 20px;
         border-color: #F4F4F4;
+        .product-category-title {
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 300;
+            color: #717378;
+        }
+        .product-categories {
+            width: 200px;
+            height: 384px;
+            margin-top: 20px;
+            div {
+                gap: 12px;
+                margin-bottom: 6px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                img {
+                    margin-bottom: 5px;
+                }
+            }
+        }
     }
     .filter-by-price {
         width: 272px;
@@ -28,5 +53,19 @@
         padding-bottom: 24px;
         gap: 20px;
         border-color: #F4F4F4;
+    }
+    .clear-filter {
+        width: 146px;
+        height: 40px;
+        border-radius: 1000px;
+        padding: 0px 32px;
+        gap: 16px;
+        background-color: #F3FBF4;
+        color: #17AF26;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
     }
 }

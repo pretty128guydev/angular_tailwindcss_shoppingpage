@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +20,11 @@ import { MainHeaderComponent } from './layout/header/main-header-component/main-
 import { NavsComponent } from './layout/navs/navs.component';
 import { SelectionsComponent } from './layout/selections/selections.component';
 import { FilterCompopnenet } from './components/filter-component/filter.component';
+import { PriceFilterComponent } from './components/filter-component/filter/filter';
+import { ProductListComponent } from './components/products-components/products.components';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { CustomComponent } from './components/products-components/custom-component/custom.component';
+import { PaginationComponent } from './components/products-components/products-footer/products.footer';
 
 @NgModule({
   declarations: [
@@ -35,14 +42,20 @@ import { FilterCompopnenet } from './components/filter-component/filter.componen
     MainHeaderComponent,
     NavsComponent,
     SelectionsComponent,
-    FilterCompopnenet
+    FilterCompopnenet,
+    PriceFilterComponent,
+    ProductListComponent,
+    CustomComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgxSliderModule,
+    MatPaginatorModule
   ],
-  providers: [],
+  providers: [provideHttpClient(withInterceptorsFromDi())],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule{ }

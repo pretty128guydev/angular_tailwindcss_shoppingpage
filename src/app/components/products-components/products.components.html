@@ -1,0 +1,32 @@
+<div class="product-list">
+    <div class="product-list-header">
+        <div class="shop">Shop</div>
+        <div class="filter">
+            Short By Latest <img src="./assets/images/Arrow.svg" alt="bag" class="search-icon">
+        </div>
+    </div>
+    <div class="product-cards">
+        <ng-container *ngFor="let product of products; let i = index">
+            <div class="product-card">
+                <img [src]="product.imgURL" alt="{{ product.name }}" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-name">{{ product.name }}</h2>
+                    <p class="product-description">{{ product.description }}</p>
+                    <p class="product-review">Review: {{ product.review || 'No reviews yet' }}</p>
+                    <p class="product-mark">{{ product.mark || 'No mark' }}</p>
+                    <p class="product-price">Price: ${{ product.price }}</p>
+                    <p class="product-amount">Stock Quantity: {{ product.stockQuantity }}</p>
+                    <button (click)="onButtonClick(product)" class="product-button">Buy Now</button>
+                </div>
+            </div>
+            <!-- Add custom component after the second row (after 6th item) -->
+            <ng-container *ngIf="i === 5">
+                <app-custom-component class="app-custom-component"></app-custom-component>
+            </ng-container>
+        </ng-container>
+    </div>
+    <app-pagination [totalItems]="totalItems" [itemsPerPage]="itemsPerPage" [currentPage]="currentPage"
+        (pageChanged)="onPageChanged($event)">
+    </app-pagination>
+
+</div>
