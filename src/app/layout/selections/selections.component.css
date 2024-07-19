@@ -11,18 +11,24 @@
         height: 48px;
         gap: 16px;
         align-items: center;
+        font-size: 20px;
+        font-weight: 500;
     }
     .selection2 {
         width: 394.67px;
         height: 48px;
         gap: 16px;
         align-items: center;
+        font-size: 20px;
+        font-weight: 500;
     }
     .selection3 {
         width: 394.67px;
         height: 48px;
         gap: 16px;
         align-items: center;   
+        font-size: 20px;
+        font-weight: 500;
     }
     .border-section {
         height: 40px;

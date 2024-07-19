@@ -1,4 +1,40 @@
 <div class="custom-component">
-    <div></div>
-    <div></div>
+    <div class="custom-component-left">
+        <ng-container *ngFor="let product of products | slice:0:1; let i = index">
+            <div class="product-card">
+                <div class="product-info">
+                    <p class="product-name">FLOWER</p>
+                    <h2 class="product-description">{{ product.name }}</h2>
+                    <div class="review-part">
+                        <img src="./assets/images/star.svg" alt="star" class="search-icon">
+                        <p class="product-review"> 4.6 / 5</p>
+                        <div class="review-border"></div>
+                        <p class="review-number">135</p>
+                        <p class="review">Reviews</p>
+                    </div>
+                    <div class="product-weights">
+                        <p class="product-weight1">28g</p>
+                        <p class="product-weight2">1/21b</p>
+                        <p class="product-weight3">1/41b</p>
+                    </div>
+                    <div class="product-button-container">
+                        <button (click)="onButtonClick(product)" class="product-button">Add to Cart</button>
+                        <div class="product-prices">
+                            <p class="product-price">${{ product.price }}</p>
+                            <p class="product-amount">${{ product.stockQuantity }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <div class="custom-component-right">
+        <ng-container *ngFor="let product of products | slice:0:1; let i = index">
+            <img src="./assets/images/Left.svg" alt="star" class="arrow-icon">
+            <div class="product-card-image">
+                <img [src]="product.imgURL" alt="{{ product.name }}" class="product-image">
+            </div>
+            <img src="./assets/images/Right.svg" alt="star" class="arrow-icon">
+        </ng-container>
+    </div>
 </div>

@@ -5,5 +5,29 @@
     border: 0px 0px 2px 0px;
     height: Hug (76px);
     top: 37px;
-    border-color: #f4f4f45d;
+    border-color: #f4f4f4425d;
+}
+.account {
+    width: 91px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 17px;
+}
+
+.account-info {
+    display: flex;
+    align-items: center;
+}
+
+.account-border {
+    width: 1px;
+    height: 12px;
+    background-color: #C8C9CB;
+    margin-right: 17px;
+}
+
+.app-account-bag {
+    margin-bottom: 17px;
 }
