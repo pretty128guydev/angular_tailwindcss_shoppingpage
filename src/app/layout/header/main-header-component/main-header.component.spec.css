@@ -2,10 +2,8 @@
     padding: 14px 64px 14px 64px;
     justify-content: space-between;
     display: flex;
-    border: 0px 0px 2px 0px;
-    height: Hug (76px);
-    top: 37px;
-    border-color: #f4f4f4425d;
+    height: 76px;
+    border: 1px solid rgba(244, 244, 244, 1);
 }
 .account {
     width: 91px;
@@ -30,4 +28,9 @@
 
 .app-account-bag {
     margin-bottom: 17px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }

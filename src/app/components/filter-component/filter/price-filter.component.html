@@ -1,0 +1,15 @@
+<div class="price-filter">
+    <div class="price-display">
+      <div class="price-label min-label" [style.left.%]="(minValue / 5000000) * 100">
+        Min: ${{ minValue }}
+      </div>
+      <div class="price-label max-label" [style.left.%]="(maxValue / 5000000) * 100">
+        Max: ${{ maxValue }}
+      </div>
+    </div>
+    <div class="slider-container">
+      <input type="range" min="0" max="5000000" [(ngModel)]="minValue" (input)="onMinValueChange($event)" class="slider min-slider">
+      <input type="range" min="0" max="5000000" [(ngModel)]="maxValue" (input)="onMaxValueChange($event)" class="slider max-slider">
+    </div>
+  </div>
+  

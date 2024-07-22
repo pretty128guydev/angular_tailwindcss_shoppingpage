@@ -2,3 +2,14 @@
     display: contents;
     padding: 20px;
 }
+
+.app-main-header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f4f4f41e;
+}
+
+.app-filter {
+    max-width: 400px;
+    width: 30%;
+    border-right: 1px solid #F4F4F4;
+}

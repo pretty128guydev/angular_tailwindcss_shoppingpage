@@ -20,7 +20,7 @@ import { MainHeaderComponent } from './layout/header/main-header-component/main-
 import { NavsComponent } from './layout/navs/navs.component';
 import { SelectionsComponent } from './layout/selections/selections.component';
 import { FilterCompopnenet } from './components/filter-component/filter.component';
-import { CustomSliderComponent } from './components/filter-component/filter/filter.component';
+import { PriceFilterComponent } from './components/filter-component/filter/price-filter.component';
 import { ProductListComponent } from './components/products-components/products.components';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { CustomComponent } from './components/products-components/custom-component/custom.component';
@@ -43,7 +43,7 @@ import { PaginationComponent } from './components/products-components/products-f
     NavsComponent,
     SelectionsComponent,
     FilterCompopnenet,
-    CustomSliderComponent,
+    PriceFilterComponent,
     ProductListComponent,
     CustomComponent,
     PaginationComponent
